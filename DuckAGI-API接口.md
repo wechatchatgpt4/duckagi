@@ -14,7 +14,7 @@ curl -H "Content-Type: application/json" -H "Authorization: Bearer $api_secret_k
 ```
 注：<br>
 1、以下所有接口的base_url: `https://api.duckagi.com/` （支持https）<br>
-2、API通过HTTP请求调用。每次请求，需要在HTTP头中携带用户的api_secret_key，用于认证。 开发者单独的api_secret_key，请从智增增管理后台获得。 
+2、API通过HTTP请求调用。每次请求，需要在HTTP头中携带用户的api_secret_key，用于认证。 开发者单独的api_secret_key，请从DuckAGI管理后台获得。 
 请求头形如：  
 ```
 Content-Type: application/json
